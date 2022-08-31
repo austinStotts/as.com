@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    background-color: black;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-text {
+    color: white;
+    
+    font-size: 5em;
+    margin: 0px;
+}
+
+.blink {
+    animation: blinker 1s linear infinite;
+    color: #39FF14;
+}
+  
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.desc-text {
+    color: white;
+    margin: 0px;
+}
+
+.list {}
+
+.list li {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+.wrapper-body {
+    margin: 10px 0px 0px 20px;
+}
+
+.wrapper-head {
+    margin: 10px 0px 0px 30px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
