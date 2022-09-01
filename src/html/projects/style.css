@@ -1,27 +1,75 @@
 body {
     margin: 0px;
+    background-color: black;
 }
 
 .wrapper-ultra {
-
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0px 0px 20px;
+    color: white;
 }
 
 .wrapper-item {
+    border: 1px solid #39FF14;
+    width: 400px;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
 
+.head {
+    margin: 10px 0px;
+}
+
+.home {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+.home:hover {
+    color: #39FF14;
+    cursor: pointer;
+    /* font-family: 'Roboto Mono', monospace; */
+}
+
+
+.slc {
+    
+}
+
+.as {
+    
+}
+
+.wrapper-item:hover {
+    border-radius: 10px;
 }
 
 .link {
+    color: white;
+    text-decoration: none;
+}
 
+.link:hover {
+    text-decoration: underline;
 }
 
 .title {
-
+    margin: 0px;
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
 }
 
-.decription {
-    
+.description {
+    margin: 0px;
+    font-size: 0.8em;
+    max-width: 250px;
 }
 
 .stack li {
     font-family: 'Roboto Mono', monospace;
+    font-style: italic;
 }
+
+
+

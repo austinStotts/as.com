@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+.wrapper-ultra {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0px 0px 20px;
+    color: white;
+}
+
+.head {
+    margin: 10px 0px;
+}
+
+.home {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+.home:hover {
+    color: #39FF14;
+    cursor: pointer;
+    /* font-family: 'Roboto Mono', monospace; */
+}
