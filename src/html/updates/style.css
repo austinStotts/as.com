@@ -24,3 +24,7 @@ body {
     cursor: pointer;
     /* font-family: 'Roboto Mono', monospace; */
 }
+
+.update-link {
+    color: #39FF14;
+}

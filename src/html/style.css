@@ -26,6 +26,7 @@ body {
 .desc-text {
     color: white;
     margin: 0px;
+    font-weight: 600;
 }
 
 .list {}
@@ -51,4 +52,16 @@ body {
 
 .link:hover {
     text-decoration: underline;
+}
+
+.space {
+    margin: 15px 0px;
+    height: 1px;
+    width: 100px;
+}
+
+.break {
+    width: 300px;
+    border-top: 1px solid rgb(65, 65, 65);
+    margin: 15px 0px;
 }

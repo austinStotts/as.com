@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+.entry-wrapper {
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px 0px 0px 20px;
+}
+
+.entry-wrapper p {
+    color: #39FF14;
+    margin-left: 10px;
+    margin: 0px;
+}
+
+
+.break {
+    border-top: 1px solid grey;
+    height: 0px;
+    width: 450px;
+    margin: 10px 0px;
+}
+
+.header {
+    font-size: 1.25em;
+    margin: 0px !important;
+}
+
+.date {
+    font-size: 1.25em;
+    margin: 0px !important;
+}
+
+.desc {
+    font-size: 0.75em;
+}
+
+.image {
+    width: 400px;
+}
