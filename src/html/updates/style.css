@@ -17,6 +17,7 @@ body {
     color: white;
     font-family: 'Roboto Mono', monospace;
     text-decoration: none;
+    transition-duration: 0.1s;
 }
 
 .home:hover {
@@ -25,6 +26,14 @@ body {
     /* font-family: 'Roboto Mono', monospace; */
 }
 
+.wrapper-list {
+    border: 1px dashed blue;
+    width: 25%;
+    min-width: 100px;
+}
+
 .update-link {
     color: #39FF14;
+    display: block;
+    margin: 3px 0px;
 }
