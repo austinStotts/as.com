@@ -27,7 +27,7 @@ body {
 }
 
 .wrapper-list {
-    border: 1px dashed blue;
+    /* border: 1px dashed blue; */
     width: 25%;
     min-width: 100px;
 }
@@ -36,4 +36,11 @@ body {
     color: #39FF14;
     display: block;
     margin: 3px 0px;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+.update-link:hover {
+    color: #a7ff98;
+    margin-left: 5px;
 }
