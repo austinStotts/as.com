@@ -14,7 +14,7 @@ body {
 
 .blink {
     animation: blinker 1s linear infinite;
-    color: #39FF14;
+    color: #33FF33;
 }
   
 @keyframes blinker {
@@ -25,16 +25,27 @@ body {
 
 .desc-text {
     color: white;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0px;
     font-weight: 400;
+    /* text-align: center; */
+    margin-left: 10px;
 }
 
-.list {}
+.list {
+    list-style: none;
+}
 
 .list li {
     color: white;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Courier New', Courier, monospace;
     
+}
+
+.list li::before {
+    content: ">";
+    color: #33FF33;
+    margin-right: 10px;
 }
 
 .wrapper-body {
