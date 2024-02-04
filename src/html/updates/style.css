@@ -9,6 +9,39 @@ body {
     color: white;
 }
 
+.title-wrapper {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.projects-title {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 5em;
+}
+
+.projects-sub {
+/*    font-family: monospace;*/
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.blink {
+    animation: blinker 1s linear infinite;
+    color: #33FF33;
+}
+  
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
 .head {
     margin: 10px 0px;
 }
@@ -38,6 +71,7 @@ body {
     margin: 3px 0px;
     font-family: 'Roboto Mono', monospace;
     text-decoration: none;
+    width: fit-content;
 }
 
 .update-link:hover {
