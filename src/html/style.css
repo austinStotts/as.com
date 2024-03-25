@@ -275,7 +275,7 @@ body {
     .project-link {
         text-decoration: none;
         /* position: relative; */
-        border: 1px dashed red;
+        /* border: 1px dashed red; */
         display: block;
         /* height: 225px; */
         margin: 20px 0px 20px 0px;
