@@ -59,6 +59,8 @@ body {
 .link {
     color: white;
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
 }
 
 .link:hover {
@@ -75,4 +77,182 @@ body {
     width: 300px;
     border-top: 1px solid rgb(65, 65, 65);
     margin: 15px 0px;
+}
+
+
+
+
+.home-title {
+    color: white;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+
+    margin: 20px 0px;
+}
+
+
+
+.deployed {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    bottom: 5px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.deployed:hover {
+    text-decoration: underline;
+    
+}
+
+.right-side {
+    position: relative;
+    height: 150px;
+}
+
+.project-link {
+    text-decoration: none;
+}
+
+.project-row {
+    height: 150px;
+    border-bottom: 1px solid #33FF33;
+    padding: 10px;
+    max-width: 700px;
+    display: grid;
+    grid-row: 150px;
+    grid-template-columns: 30% 70%;
+    column-gap: 10px;
+    margin: 20px 0px 20px 10px;
+    /* transition-duration: 0.2s; */
+    align-content: center;
+}
+
+.project-row:hover {
+    
+    cursor: pointer;
+    border: 1px solid #33FF33;
+    padding: 9px 9px 10px 9px;
+    border-radius: 5px;
+    /* padding: 0px; */
+}
+
+.img-wrapper {
+    position: relative;
+    height: 150px;
+}
+
+.project-img {
+    height: 150px;
+    /* align-content: center; */
+    left: 50%;
+    position: absolute;
+    /* top: 50%; */
+    transform: translate(-50%, 0%);
+}
+
+.project-title {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    
+}
+
+.project-desc {
+    color: white;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 15px;
+    
+}
+
+.stack {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-top: 10px;
+    border-top: 1px solid rgb(47, 47, 47);
+    padding-top: 5px;
+    width: 90%;
+}
+
+.stack::before {
+    color: #33FF33;
+    content: "stack:";
+    margin-right: 5px;
+}
+
+.labels {
+    font-size: 16px;
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.rust {
+    color: #dea584;
+    background-color: rgb(47, 47, 47);
+    margin: 0px 2px;
+    border-radius: 5px;
+    padding: 2px 4px 2px 4px;
+}
+
+.javascript {
+    color: #f1e05a;
+    background-color: rgb(47, 47, 47);
+    margin: 0px 2px;
+    border-radius: 5px;
+    padding: 2px 4px 2px 4px;
+}
+
+.react {
+    color: #ff86f5;
+    background-color: rgb(47, 47, 47);
+    margin: 0px 2px;
+    border-radius: 5px;
+    padding: 2px 4px 2px 4px;
+}
+
+.wgsl {
+    color: #1a5e9a;
+    background-color: rgb(47, 47, 47);
+    margin: 0px 2px;
+    border-radius: 5px;
+    padding: 2px 4px 2px 4px;
+}
+
+.node {
+    color: rgb(65, 126, 56);
+    background-color: rgb(47, 47, 47);
+    margin: 0px 2px;
+    border-radius: 5px;
+    padding: 2px 4px 2px 4px;
+}
+
+.nginx {
+    color: #ff5c5c;
+    background-color: rgb(47, 47, 47);
+    margin: 0px 2px;
+    border-radius: 5px;
+    padding: 2px 4px 2px 4px;
+}
+
+
+
+
+
+
+
+
+
+.me {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.me-text {
+    margin: 10px 10px;
 }
