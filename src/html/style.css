@@ -5,6 +5,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.endfill {
+    height: 100px;
+}
+
 .header-text {
     color: white;
     
@@ -91,7 +95,6 @@ body {
 }
 
 
-
 .deployed {
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -120,6 +123,7 @@ body {
     border-bottom: 1px solid #33FF33;
     padding: 10px;
     max-width: 700px;
+    position: relative;
     display: grid;
     grid-row: 150px;
     grid-template-columns: 30% 70%;
@@ -186,7 +190,7 @@ body {
 .labels {
     font-size: 16px;
     position: absolute;
-    bottom: 1px;
+    bottom: 10px;
     right: 1px;
     margin-right: 10px;
     font-family: 'Courier New', Courier, monospace;
@@ -255,4 +259,177 @@ body {
 
 .me-text {
     margin: 10px 10px;
+}
+
+
+
+
+@media (max-width: 800px) {
+
+    
+    .right-side {
+        position: relative;
+        height: 225px;
+    }
+    
+    .project-link {
+        text-decoration: none;
+        /* position: relative; */
+        border: 1px dashed red;
+        display: block;
+        /* height: 225px; */
+        margin: 20px 0px 20px 0px;
+    }
+    
+    .project-row {
+        height: 225px;
+        border-bottom: 1px solid #33FF33;
+        padding: 10px;
+        max-width: 700px;
+        display: grid;
+        /* position: absolute; */
+        /* grid-row: 150px; */
+        grid-template-columns: 30% 70%;
+        column-gap: 10px;
+        margin-right: 10px;
+        /* transition-duration: 0.2s; */
+        align-content: center;
+    }
+    
+    .project-row:hover {
+        
+        cursor: pointer;
+        border: 1px solid #33FF33;
+        padding: 9px 9px 10px 9px;
+        border-radius: 5px;
+        /* padding: 0px; */
+    }
+
+    .deployed {
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        position: absolute;
+        bottom: 5px;
+        right: 1px;
+        text-decoration: none;
+        font-style: italic;
+    }
+    
+    .deployed:hover {
+        text-decoration: underline;
+        
+    }
+    
+    .img-wrapper {
+        position: relative;
+        /* height: 75px; */
+    }
+    
+    .project-img {
+        /* height: 75px; */
+        /* align-content: center; */
+        height: auto;
+        width: 105px;
+        left: 50%;
+        position: absolute;
+        /* top: 50%; */
+        transform: translate(-50%, 0%);
+    }
+    
+    .project-title {
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        
+    }
+    
+    .project-desc {
+        color: white;
+        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 15px;
+        margin-left: 2px;
+    }
+    
+    .stack {
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        margin-top: 10px;
+        border-top: 1px solid rgb(47, 47, 47);
+        padding-top: 5px;
+        width: 90%;
+    }
+    
+    .stack::before {
+        color: #33FF33;
+        content: "stack:";
+        margin-right: 5px;
+    }
+    
+    .labels {
+        height: 50px;
+        width: 100%;
+        font-size: 16px;
+        position: absolute;
+        bottom: 0px;
+        left: 1px;
+        margin-right: 10px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .rust {
+        color: #dea584;
+        background-color: rgb(47, 47, 47);
+        margin: 0px 2px;
+        border-radius: 5px;
+        padding: 2px 4px 2px 4px;
+        display: inline-block;
+    }
+    
+    .javascript {
+        color: #f1e05a;
+        background-color: rgb(47, 47, 47);
+        margin: 0px 2px;
+        border-radius: 5px;
+        padding: 2px 4px 2px 4px;
+        display: inline-block;
+    }
+    
+    .react {
+        color: #ff86f5;
+        background-color: rgb(47, 47, 47);
+        margin: 0px 2px;
+        border-radius: 5px;
+        padding: 2px 4px 2px 4px;
+        display: inline-block;
+    }
+    
+    .wgsl {
+        color: #1a5e9a;
+        background-color: rgb(47, 47, 47);
+        margin: 0px 2px;
+        border-radius: 5px;
+        padding: 2px 4px 2px 4px;
+        display: inline-block;
+    }
+    
+    .node {
+        color: rgb(65, 126, 56);
+        background-color: rgb(47, 47, 47);
+        margin: 0px 2px;
+        border-radius: 5px;
+        padding: 2px 4px 2px 4px;
+        display: inline-block;
+    }
+    
+    .nginx {
+        color: #ff5c5c;
+        background-color: rgb(47, 47, 47);
+        margin: 0px 2px;
+        border-radius: 5px;
+        padding: 2px 4px 2px 4px;
+        display: inline-block;
+    }
+        
 }
